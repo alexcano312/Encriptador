@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="icon" type="image/x-icon" href="Images/ordenadores.ico">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Challenge 01</title>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img class="logoimg" src="Images/Logo.svg">
+            <h1 class="tittle">Encriptador de mensajes</h1>
+        </div>
+        <div class="left">
+           <input class="text-input" type="text" name="" id="inputtexto" value="" placeholder="Ingrese el texto aqui">
+        </div>
+        <div class="right">
+            <img src="Images/Muñeco.svg" id="imgder">
+            <h1 id="texto">Ningun Mensaje fuen encontrado</h1>
+            <textarea name="name" id="texto2" rows="8" cols="80">Ingrese el texto que desees encriptar.</textarea>
+            <button type="button" id="btn-copiar" onclick="Copiar()">Copiar</button>
+        </div>
+
+        <div class="left-button">
+            <p class="frase">Solo minusculas y sin acentos</p>
+            <button type="button" id="btn-encriptar" onclick="Encriptar()">Encriptar</button>
+            <button type="button" id="btn-desencriptar" onclick="Desencriptar()">Desencriptar</button>
+
+        </div>
+
+    </div>
+    
+</body>
+<footer>
+    <img class="github" src="Images/github-mark.png" alt="Logo de GitHub">
+    <p class="yo">Elaborado por Alejandro Cano</p>
+  </footer>
+</html>

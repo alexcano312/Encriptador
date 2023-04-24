@@ -1,0 +1,144 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: #f3f5fc;
+}
+
+.container{
+    margin: auto;
+    width: 960px;
+    height: 650px;
+    padding: 5px;
+}
+.logo{
+    width: 100%;
+    float: left;   
+}
+.left{
+    float: left;
+    width: 70%;
+    height: 70%;
+    border-radius: 24px;
+}
+.right{
+    float:right;
+    border-radius: 24px;
+    width: 30%;
+    height: auto;
+    background: white;
+}
+.left-button{
+    float: left;
+    width: 70%;
+    height: auto;
+    border-radius: 24px;
+}
+.logoimg{
+    margin-top: 1%;
+    margin-left: 1%;
+    float: inherit;
+}
+.tittle{
+    margin-top: 1%;
+    float: inherit;
+    margin-left: 20%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+    font-weight: bold;
+    font-size: 25px;
+}
+.text-input{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10%;
+    width: 80%;
+    height: 80%;
+    color: #0A3871;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #f3f5fc;
+
+}
+#imgder{
+    margin-left: 2%;
+    margin-top: 20%;
+    width: 90%;
+    height: auto;
+}
+#texto{
+    margin-left: 8%;
+    margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #0A3871;
+}
+#texto2{
+   float: left;
+   margin-top: 10%;
+    margin-left: 10%;
+    color:#0A3871;
+    width: 80%;
+    height: 60%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+#btn-encriptar{
+    padding: 20px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 15%;
+    background: #0A3871;
+    cursor: pointer;
+}
+#btn-desencriptar{
+    padding: 20px;
+    width: 30%;
+    height: 60%;
+    border-radius: 24px;
+    margin-left: 10%;
+    background: #D8DFE8;
+    cursor: pointer;
+}
+#btn-copiar{
+    margin-left: 33%;
+    margin-top: 90%;
+    padding: 24px;
+    width: 40%;
+    height: 10%;
+    background: #D8DFE8;
+    border-radius: 24px;
+    display: none;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
+.frase{
+    margin-left: 10%;
+    margin-top: 1%;
+    padding: 24px;
+    width: 80%;
+}
+.frase:before {
+    content: "\0021"; /* Notación de escape de CSS del signo de exclamación */
+    margin-right: 0.5em; /* Espacio entre el icono y el texto */
+  }
+  footer {
+    background: #f3f5fc; /* Color de fondo del pie de página */
+    color: #0A3871; /* Color del texto */
+    font-size: 2em; /* Tamaño de fuente */
+    padding: 40px; /* Espacio interior */
+    text-align: center; /* Alineación del texto */
+    margin-top: 60px; /* Espacio superior */
+  }
+  
+  .github{
+    height: 30px; /* Altura del logotipo */
+    margin-top: 10px; /* Espacio superior */
+  }
+  .yo{
+    margin-top: 10px; /* Espacio superior */
+    height: auto;
+    width: auto;
+  }
